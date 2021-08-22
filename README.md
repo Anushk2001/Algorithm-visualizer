@@ -11,3 +11,9 @@
 
 # Insertion Sort
 ![insertion_sort](https://user-images.githubusercontent.com/72788557/130358696-3f6ea11c-b990-4603-971b-de8c3478b9cc.png)
+
+# Heap Sort
+![heap_sort](https://user-images.githubusercontent.com/72788557/130360539-faec68d3-326f-4ec4-b7b7-93cf5c5d6112.png)
+
+# Quick Sort
+![quick_sort](https://user-images.githubusercontent.com/72788557/130360585-b8a49407-a00b-4724-a143-37bd7e108982.jpg)
