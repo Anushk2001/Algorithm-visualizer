@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithm-Visualiser</title>
+    <link rel="icon" href="https://hackr.io/tutorials/learn-data-structures-algorithms/logo/logo-data-structures-algorithms?ver=1587721467" type="image/icon type">
+    <link rel="stylesheet" href="sorting.css" />
+    <script src="./js_files/controllers/main.js"></script>
+    <script src="./js_files/bubble.js"></script>
+    <script src="./js_files/merge.js"></script>
+    <script src="./js_files/selection.js"></script>
+    <script src="./js_files/insertion.js"></script>
+    <script src="./js_files/controllers/disable.js"></script>
+    <script src="./js_files/controllers/resume.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
+  <body onload="newArray()">
+    <div class="navBar">
+      <p style="display: inline;">Algorithm Visualiser</p>
+    </div>
+
+    <div class="sortingHeader">
+       <p style="display: inline;">Visualisation Of Sorting Algorithms</p>
+    </div>
+
+    <div class="buttonList">
+      <button id="newArray" class="button" onclick="newArray()">
+        Generate New-Array
+      </button>
+      <button id="bubbleSort" class="button" onclick="bubbleSort()">
+        Bubble-Sort
+      </button>
+      <button id="selectionSort" class="button" onclick="selectionSort()">
+        Selection Sort
+      </button>
+      <button id="insertionSort" class="button" onclick="insertionSort()">
+        Insertion Sort
+      </button>
+      </button>
+      <button id="mergeSort" class="button" onclick="myMergeSort()">
+        Merge Sort
+      </button>
+    </div>
+
+    <div class="buttonList">
+      <div>
+        <label for="array_sz" style="border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; font-size:x-large">Block Count</label>
+         <input style=" margin-top: 20px; border-radius: 50px; margin-right: 10px; outline-width: 0px;" id="arr_sz" name="array_sz" type="input" min=10 max=16 step=1 value=12>
+      </div> 
+
+    </div>
+
+    <div id="barComponent"></div>
+
+
+
+
+  </body>
+</html>

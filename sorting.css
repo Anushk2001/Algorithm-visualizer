@@ -1,0 +1,139 @@
+body{
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.navBar{
+    margin: 15px;
+    padding: 5px;    
+    background-color: rgb(13, 61, 63);
+    color: aqua;    
+    text-align: center;
+    font-size:xx-large ;
+    border-radius: 10px;
+}
+.sortingHeader{
+    width: 70%;
+    margin: auto;
+    padding: 5px;    
+    background-color: #cc5577;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(7, 36, 36);    
+    text-align: center;
+    font-size:xx-large ;
+    border-radius: 10px;
+}
+
+.footer{
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(13, 61, 63);
+    color: aqua;    
+    text-align: center;
+    font-size:xx-large ;
+    border-radius: 10px;
+}
+.buttonList{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#barComponent{
+    width: 70%;
+    margin: auto;
+    margin-top: 6vh;
+    
+}
+
+.eachBar{
+    margin: 4px;
+    background-color: rgb(170, 40, 148);
+    color: rgb(95, 14, 28); 
+    height: 4vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.button {    
+    background-color: #f4511e;
+    border-radius: 5px;  
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;  
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px 1px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .bottom-button{
+    background-color: #02b7ff;
+    border-radius: 5px;  
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;  
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #pause{
+      background-color: red;
+  }
+
+.button:hover {
+    opacity: 1;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+button:disabled,
+button[disabled]{
+  cursor: default;
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+button[disabled]:hover{
+  opacity: 0.6;
+  border-radius: 5px;  
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #888888;  
+}
+
+.buttonList{
+    flex: auto;
+}
+
+@media(max-width: 500px){
+    #barComponent{
+        margin: auto;
+        margin-top: 3vh;
+        width: 100%;
+         
+    }
+    .eachBar{
+    margin: 1.4px;
+    background-color: blue;
+    color: blue; 
+    height: 2.8vh;     
+    }
+}
