@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Algorithm-Visualiser</title>
+    <title>Algorithm-Visualizer</title>
     <link rel="icon" href="https://hackr.io/tutorials/learn-data-structures-algorithms/logo/logo-data-structures-algorithms?ver=1587721467" type="image/icon type">
     <link rel="stylesheet" href="sorting.css" />
     <script src="./js_files/controllers/main.js"></script>
@@ -18,7 +18,7 @@
   </head>
   <body onload="newArray()">
     <div class="navBar">
-      <p style="display: inline;">Algorithm Visualiser</p>
+      <p style="display: inline;">Algorithm Visualizer</p>
     </div>
 
     <div class="sortingHeader">
@@ -47,7 +47,10 @@
     <div class="buttonList">
       <div>
         <label for="array_sz" style="border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; font-size:x-large">Block Count</label>
-         <input style=" margin-top: 20px; border-radius: 50px; margin-right: 10px; outline-width: 0px;" id="arr_sz" name="array_sz" type="input" min=10 max=16 step=1 value=12>
+         <input style=" margin-top: 20px; margin-right: 15px; 
+                outline-width: 0px; min-width: 190px;" 
+                id="arr_sz" name="array_sz" type="number" value="12" step="1" min="1"
+                placeholder="Please enter a number">
       </div> 
 
     </div>
